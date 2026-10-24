@@ -40,7 +40,7 @@ This project demonstrates the deployment of Wazuh Manager and Agent, the detecti
 | **Dashboard URL** | `https://10.0.2.4` |
 
 ## Lab Setup in Oracle VirtualBox
-![](./Screenshots/My%20Lab.png)
+![](./screenshots/My%20Lab.png)
 
 ## Lab Components Detailed Explanation
 
@@ -98,58 +98,58 @@ From Kali Linux, Hydra attempts a list of passwords against the `analyst` SSH ac
 # 3. Steps & Evidence
 
 ## 3.1 Enabling SSH in Ubuntu Server to Attack It
-![](./Screenshots/01%20enabling%20ssh%20in%20ubuntu.png)
+![](./screenshots/01%20enabling%20ssh%20in%20ubuntu.png)
 
 ## 3.2 Power On Wazuh Server Machine, Log In and Check Its IP Address
-![](./Screenshots/02%20starting%20and%20showing%20ip%20of%20wazuh%20server.png)
+![](./screenshots/02%20starting%20and%20showing%20ip%20of%20wazuh%20server.png)
 
 ## 3.3 Enabling Core Components of Wazuh (wazuh-indexer, wazuh-manager, wazuh-dashboard)
-![](./Screenshots/03%20enabling%20component%20of%20wazuh%20and%20checking%20their%20status.png)
+![](./screenshots/03%20enabling%20component%20of%20wazuh%20and%20checking%20their%20status.png)
 
 ## 3.4 Checking Status of Core Components of Wazuh
-![](./Screenshots/04%20checking%20status%20wazuh-manager.png)
-![](./Screenshots/05%20checking%20status%20wazuh-dashboard.png)
+![](./screenshots/04%20checking%20status%20wazuh-manager.png)
+![](./screenshots/05%20checking%20status%20wazuh-dashboard.png)
 
 ## 3.5 Checking Status of Wazuh Agent in Ubuntu Server
-![](./Screenshots/06%20checking%20status%20wazuh-agent%20in%20ubuntu%20server.png)
+![](./screenshots/06%20checking%20status%20wazuh-agent%20in%20ubuntu%20server.png)
 
 ## 3.6 Opening Wazuh in Kali Browser Using `https://10.0.2.4`
-![](./Screenshots/08%20successfuly%20open%20wazuh%20in%20kali%20browser.png)
+![](./screenshots/08%20successfuly%20open%20wazuh%20in%20kali%20browser.png)
 
 ## 3.7 Initial Look of Wazuh Dashboard Before Attack
-![](./Screenshots/09%20before%20brute%20force%20attack.png)
+![](./screenshots/09%20before%20brute%20force%20attack.png)
 
 ## 3.8 Checking IP of Attacker Kali
-![](./Screenshots/10%20ip%20of%20attacker%20kali.png)
+![](./screenshots/10%20ip%20of%20attacker%20kali.png)
 
 ## 3.9 Creating Brute Force Attack on Ubuntu Server Using Kali
-![](./Screenshots/11%20hydra%20attack.png)
+![](./screenshots/11%20hydra%20attack.png)
 
 ## 3.10 Live Detection of Brute Force Attack in Wazuh
-![](./Screenshots/12%20live%20detection%20of%20attack%20in%20wazuh.png)
+![](./screenshots/12%20live%20detection%20of%20attack%20in%20wazuh.png)
 
 ## 3.11 Applying Filter in Wazuh Search Bar
-![](./Screenshots/13%20applying%20rule%20is%20filter.png)
+![](./screenshots/13%20applying%20rule%20is%20filter.png)
 
 ## 3.12 View Detail of Alert and Attacker Information
-![](./Screenshots/14%20viewing%20detail%20of%20alert%20and%20ip%20of%20attacker.png)
+![](./screenshots/14%20viewing%20detail%20of%20alert%20and%20ip%20of%20attacker.png)
 
 ## 3.13 Blocking Attacker IP Using CLI in Ubuntu Server
-![](./Screenshots/15%20Blocking%20attacker%20ip%20from%20ubuntu%20server.png)
+![](./screenshots/15%20Blocking%20attacker%20ip%20from%20ubuntu%20server.png)
 
 ## 3.14 Creating Brute Force Attack Again to Confirm IP Block Using Kali
-![](./Screenshots/16%20confirmation%20of%20ip%20block%20in%20kali.png)
+![](./screenshots/16%20confirmation%20of%20ip%20block%20in%20kali.png)
 
 ## 3.15 Confirming Blockage of Attacker in Wazuh
-![](./Screenshots/17%20No%20new%20alert%20only%20old%20alert%20mean%20confirmed%20attacker%20is%20blocked.png)
+![](./screenshots/17%20No%20new%20alert%20only%20old%20alert%20mean%20confirmed%20attacker%20is%20blocked.png)
 
 ## 3.16 Comparing Alerts
 
 #### Before Block of IP
-![](./Screenshots/18%20before%20block%20attacker.png)
+![](./screenshots/18%20before%20block%20attacker.png)
 
 #### After Blocking - No New Alerts Generated
-![](./Screenshots/19%20after%20block%20attacker.png)
+![](./screenshots/19%20after%20block%20attacker.png)
 
 ---
 
