@@ -72,7 +72,7 @@ This project demonstrates the deployment of Wazuh Manager and Agent, the detecti
 
 From Kali Linux, Hydra attempts a list of passwords against the `analyst` SSH account on the Ubuntu Server:
 
-'hydra -l analyst -P passwords.txt ssh://10.0.2.3 -t 4 -V'
+'hydra -l osboxes -P /usr/share/wordlists/rockyou.txt -t 4 -v -f ssh'
 
 # Detection
 
