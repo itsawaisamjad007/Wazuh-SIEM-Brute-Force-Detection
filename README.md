@@ -85,6 +85,15 @@ From Kali Linux, Hydra attempts a list of passwords against the `analyst` SSH ac
 | 5758 | 8 | Maximum authentication attempt exceeded |
 
 
+### MITRE ATT&CK Mapping
+
+| Tactic | Technique | ID | Description |
+| :--- | :--- | :--- | :--- |
+| Credential Access | Brute Force: Password Guessing | T1110.001 | Hydra used to guess SSH credentials |
+| Initial Access | Remote Services: SSH | T1021.004 | Attempted SSH access to Ubuntu Server |
+
+This detection aligns with MITRE ATT&CK framework, which is used by SOC analysts to classify and respond to attacks.
+
 
 ## Challenges Faced
 - Initially, Wazuh Manager was not starting because of low RAM, so I increased it to 4GB.
