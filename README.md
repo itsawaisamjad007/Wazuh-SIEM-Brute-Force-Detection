@@ -164,13 +164,13 @@ This detection aligns with MITRE ATT&CK framework, which is used by SOC analysts
 
 ## 4. Evidence & Logs
 
-All generated logs are available in the `logs/` folder for verification.
+All generated logs are available in the `Evidence of log file` folder for verification.
 
 | File | Description |
 | :--- | :--- |
-| `logs/alerts.json` | Main alert file in JSON format (2.5 MB). Contains all alerts with Rule ID, attacker IP, and timestamp. |
-| `logs/alerts.log` | Same alerts in plain text format, human-readable. |
-| `config/ossec.conf` | Wazuh Manager configuration file. |
+| `Evidence of log files/alerts.json` | Main alert file in JSON format (2.5 MB). Contains all alerts with Rule ID, attacker IP, and timestamp. |
+| `Evidence of log files/alerts.log` | Same alerts in plain text format, human-readable. |
+| `Evidence of log files/ossec.conf` | Wazuh Manager configuration file. |
 
 # How to Analyze Logs:
 
