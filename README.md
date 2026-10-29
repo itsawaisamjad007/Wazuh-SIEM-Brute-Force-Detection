@@ -82,7 +82,7 @@ From Kali Linux, Hydra attempts a list of passwords against the `analyst` SSH ac
 -----
 # Lab Attack Flow Diagram For Quick Understanding :-
 
-![](./Screenshots/20%20Lab%20Attack%20Flow%20Diagram.png)
+![](./screenshots/20%20Lab%20Attack%20Flow%20Diagram.png)
 ----
 # Detection :-
 
